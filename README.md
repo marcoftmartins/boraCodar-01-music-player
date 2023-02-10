@@ -1,13 +1,14 @@
 <h1 align="center"> boraCodar #01 - Music Player </h1>
-<p align="center">
-Projeto desenvolvido no desafio do #boraCodar da Rocketseat <br/>
-</p>
+<div align="center">
+  Week 01 challenge from #boraCodar by <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a>
+</div>
+</br>
 
 <p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project-features">Project features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licence">Licença</a>
+  <a href="#-license">License</a>
 </p>
 
 <p align="center">
@@ -42,6 +43,6 @@ Projeto desenvolvido no desafio do #boraCodar da Rocketseat <br/>
 
 You can access the original layout using [this link](https://www.figma.com/community/file/1195050524500542670).
 
-## 📋 Licence
+## 📋 License
 
-This project is under the IMT license
+This project is under the IMT license.
