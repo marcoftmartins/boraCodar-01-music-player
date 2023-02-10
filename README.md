@@ -4,10 +4,10 @@ Projeto desenvolvido no desafio do #boraCodar da Rocketseat <br/>
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project-features">Project features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-licence">Licença</a>
 </p>
 
 <p align="center">
@@ -22,19 +22,26 @@ Projeto desenvolvido no desafio do #boraCodar da Rocketseat <br/>
 
 ---
 
-## 🚀 Tecnologias
+## 🚧 Project features
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+- [X] Responsive
+- [ ] Play and pause music
+- [ ] Progress bar
+- [ ] Progressive and regressive timer
 
-- HTML e CSS
-- JavaScript
-- Git e Github
-- Figma
 
-## 🔖 Layout
+## 🛠 Technologies
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195050984449538256). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## :memo: Licença
+## 🎨 Layout
 
-Esse projeto está sob a licença MIT.
+![FIGMA](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+You can access the original layout using [this link](https://www.figma.com/community/file/1195050524500542670).
+
+## 📋 Licence
+
+This project is under the IMT license
