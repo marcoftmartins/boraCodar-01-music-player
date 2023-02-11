@@ -17,9 +17,7 @@
 
 <br>
 
-<div align="center">
-  <img alt="Music player" src="project-preview.png" width="100%" >
-</div>
+ ![project-preview2](https://user-images.githubusercontent.com/47821731/218233298-e6a99f83-4659-444f-934b-fc7ff64124d5.png)
 
 ---
 
