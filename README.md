@@ -21,13 +21,16 @@
 
 ---
 
+## 🚀 Deploy
+
+Project deploy [here](https://marcoftmartins.github.io/boraCodar-01-music-player/)
+
 ## 🚧 Project features
 
 - [X] Responsive
 - [ ] Play and pause music
 - [ ] Progress bar
 - [ ] Progressive and regressive timer
-
 
 ## 🛠 Technologies
 
