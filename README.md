@@ -5,6 +5,7 @@
 </br>
 
 <p align="center">
+  <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project-features">Project features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -15,11 +16,17 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-<br>
+<h2 align="center">
+  📃 Project preview
+</h2>
 
-![project-preview2](https://user-images.githubusercontent.com/47821731/218233298-e6a99f83-4659-444f-934b-fc7ff64124d5.png)
+![image](https://user-images.githubusercontent.com/47821731/221192580-9b613cf7-5334-4b02-a435-5ecc9feeb7f2.png)
 
 ---
+
+## 🚀 Deploy
+
+You can visit the project deployment [here](https://marcoftmartins.github.io/boraCodar-01-music-player/).
 
 ## 🚧 Project features
 
