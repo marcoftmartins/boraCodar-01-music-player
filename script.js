@@ -27,8 +27,8 @@ loadSong(songs[songIndex], artists[songIndex])
 function loadSong(song, artist) {
   songTitle.innerText = song
   songArtist.innerText = artist
-  audio.src = `./assets/musics/${song}.mp3`
-  musicCover.src = `./assets/covers/${song}.jpg`
+  audio.src = `./assets/musics/${song.toLowerCase()}.mp3`
+  musicCover.src = `./assets/covers/${song.toLowerCase()}.jpg`
 }
 
 function playSong() {
