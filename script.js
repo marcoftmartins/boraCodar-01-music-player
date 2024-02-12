@@ -1,3 +1,5 @@
+/** @format */
+
 const playBtn = document.querySelector('.play')
 const prevBtn = document.querySelector('.prev')
 const nextBtn = document.querySelector('.next')
@@ -11,61 +13,65 @@ const musicCover = document.querySelector('.music-cover')
 const player = document.querySelector('.player')
 const progressBar = document.querySelector('.track')
 
-const songs = ['Imagina','Nos2','Madruga']
-const artists = ['Frankieontheguitar ft. Ivandro, Slow J','Bispo ft. Deezy','Mike11']
+const songs = ['Imagina', 'Nos2', 'Madruga']
+const artists = [
+  'Frankieontheguitar ft. Ivandro, Slow J',
+  'Bispo ft. Deezy',
+  'Mike11',
+]
 
 let songIndex = 1
 
 loadSong(songs[songIndex], artists[songIndex])
 
-function loadSong(song, artist){
+function loadSong(song, artist) {
   songTitle.innerText = song
   songArtist.innerText = artist
-  audio.src = `assets/musics/${song}.mp3`
-  musicCover.src = `assets/covers/${song}.jpg` 
+  audio.src = `./assets/musics/${song}.mp3`
+  musicCover.src = `./assets/covers/${song}.jpg`
 }
 
-function playSong(){
+function playSong() {
   player.classList.add('playing')
   playBtn.classList.add('hide')
   pauseBtn.classList.remove('hide')
   audio.play()
 }
 
-function pauseSong(){
+function pauseSong() {
   player.classList.remove('playing')
   playBtn.classList.remove('hide')
   pauseBtn.classList.add('hide')
   audio.pause()
 }
 
-function prevSong(){
+function prevSong() {
   songIndex--
-  if(songIndex<0){
-    songIndex = songs.length-1
+  if (songIndex < 0) {
+    songIndex = songs.length - 1
   }
-  loadSong(songs[songIndex],artists[songIndex])
+  loadSong(songs[songIndex], artists[songIndex])
   playSong()
 }
 
-function nextSong(){
+function nextSong() {
   songIndex++
-  if(songIndex>songs.length-1){
+  if (songIndex > songs.length - 1) {
     songIndex = 0
   }
-  loadSong(songs[songIndex],artists[songIndex])
+  loadSong(songs[songIndex], artists[songIndex])
   playSong()
 }
 
-function updateProgess(e){
-  const {duration, currentTime} = e.srcElement
-  const progressPercentage = (currentTime/duration) * 100
+function updateProgess(e) {
+  const { duration, currentTime } = e.srcElement
+  const progressPercentage = (currentTime / duration) * 100
 
-  progressBar.style.setProperty('--width',`${progressPercentage}%`)
+  progressBar.style.setProperty('--width', `${progressPercentage}%`)
   songLastingTime.innerText = convertSecondsIntoMinutes(currentTime)
 }
 
-function setProgress(e){
+function setProgress(e) {
   const width = this.clientWidth
   const clickX = e.offsetX
   const duration = audio.duration
@@ -73,28 +79,27 @@ function setProgress(e){
   audio.currentTime = (clickX / width) * duration
 }
 
-function convertSecondsIntoMinutes(timeInSeconds){
-  const minutes = Math.floor(timeInSeconds/60)
+function convertSecondsIntoMinutes(timeInSeconds) {
+  const minutes = Math.floor(timeInSeconds / 60)
   let seconds = Math.trunc(timeInSeconds - minutes * 60)
   let time = `0${minutes}:${seconds}`
-  if (seconds <=9)
-    time = `0${minutes}:0${seconds}`
+  if (seconds <= 9) time = `0${minutes}:0${seconds}`
   return time
 }
 
 playBtn.addEventListener('click', () => {
   const isPlaying = player.classList.contains('playing')
 
-  if(isPlaying){
+  if (isPlaying) {
     pauseSong()
   } else playSong()
 })
 
-pauseBtn.addEventListener('click',pauseSong)
+pauseBtn.addEventListener('click', pauseSong)
 
-prevBtn.addEventListener('click',prevSong)
+prevBtn.addEventListener('click', prevSong)
 
-nextBtn.addEventListener('click',nextSong)
+nextBtn.addEventListener('click', nextSong)
 
 audio.addEventListener('timeupdate', updateProgess)
 
@@ -104,4 +109,4 @@ audio.onloadedmetadata = () => {
   songTotalTime.innerText = convertSecondsIntoMinutes(audio.duration)
 }
 
-progressBar.addEventListener('click',setProgress)
+progressBar.addEventListener('click', setProgress)
